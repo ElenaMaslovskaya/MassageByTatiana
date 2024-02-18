@@ -46,9 +46,9 @@ body {
 .header {
     width: 100%;
     display: flex;
-    height: 134px;
     background-color: #FDBDBA;
-    padding: 20px;
+    padding: 20px 70px;
+    position: fixed;
 }
 
 .logo {
@@ -67,7 +67,6 @@ body {
 
 .header__nav {
     width: 100%;
-    max-width: 1440px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,8 +77,6 @@ body {
     justify-content: space-between;
     font-family: Inika;
     font-size: 24px;
-    line-height: 50px;
-    letter-spacing: 0em;
 }
 .header__list-item {
     margin-left: 40px;
@@ -97,11 +94,13 @@ main {
 .home {
     width: 100%;    
     height: 900px;
+    padding: 0 70px;
     background-color: transparent;
     display: flex;
     background-image: url(./img/Home.jpg);
     background-size: cover;
     background-position: center;
+    margin-top: 40px;
     
 }
 
@@ -109,9 +108,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: end;
-    width: 80%;
-    max-width: 1440px;
-    margin-right: 200px;
     margin-left: auto;
 }
 
@@ -124,7 +120,7 @@ main {
     text-align: left;
     margin-top: 100px;
     color: #FFF8FA;
-    text-shadow: 1px 1px 1px #000000;
+    text-shadow: 1px 1px 1px #636060;
 }
 
 .home__subtitle {
@@ -137,6 +133,201 @@ main {
     margin-top: 100px;
     font-size: 28px;
     color: #FFF8FA;
-    text-shadow: 1px 1px 1px #000000;
+    text-shadow: 1px 1px 1px #636060;
     font-style: italic;
 }
+
+.about {
+    width: 100%;
+    min-height: 500px;
+    background-color: #FFF8FA;
+    padding: 70px;
+    display: flex;
+
+}
+
+.about__img {
+    background-image: url(./img/Tatiana.jpg);
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    margin-left: auto;
+    display: flex;
+    align-self: center;
+    box-shadow: 10px 10px 10px #FDBDBA;
+}
+.about__info {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-between;
+    padding-left: 70px;
+}
+.about__title {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FDBDBA;
+    text-shadow: 2px 2px 2px #636060;
+    margin-bottom: 20px;
+}
+
+.about__text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+    
+}
+
+i {
+    text-align: end;
+    font-size: 20px;
+    color: #636060;
+}
+
+.service {
+    width: 100%;
+    padding: 70px;
+    background-color: #FDBDBA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service__title {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF8FA;
+    text-shadow: 1px 1px 1px #636060;
+    margin-bottom: 70px;
+}
+.service-container {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.service__item {
+    
+}
+
+.service__subtitle {
+    color: #FFF8FA;
+    font-size: 28px;
+    text-shadow: 1px 1px 1px #F6768E;
+    margin-bottom: 10px;
+}
+
+.service__img {
+    width: 250px; 
+    height: 250px; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px #FFF8FA;
+}
+
+.service__img_1 {
+    background-image: url(./img/waxing1.jpg);
+}
+
+.service__img_2 {
+    background-image: url(./img/welmas4.jpg);
+}
+
+.service__img_3 {
+    background-image: url(./img/emas4.jpg);
+}
+
+button {
+    margin-top: 10px; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    border-radius: 10px;
+    color: #636060;
+}
+
+.waxing-info {
+    width: 100%;
+    background-color: #FFF8FA;
+    padding: 70px;
+    padding-bottom: 0;
+}
+
+.waxing-info__title {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FDBDBA;
+    text-shadow: 1px 1px 1px #636060;
+    margin-bottom: 30px;
+}
+
+#waxing-info p {
+    color: #636060;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.wellness-massage-info {
+    width: 100%;
+    background-color: #FFF8FA;
+    padding: 70px;
+    padding-bottom: 0;
+}
+
+.wellness-massage-info__title {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FDBDBA;
+    text-shadow: 1px 1px 1px #636060;
+    margin-bottom: 30px;
+}
+
+#wellness-massage-info p {
+    color: #636060;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.bioelectro-massage-info {
+    width: 100%;
+    background-color: #FFF8FA;
+    padding: 70px;
+}
+
+.bioelectro-massage-info__title {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FDBDBA;
+    text-shadow: 1px 1px 1px #636060;
+    margin-bottom: 30px;
+}
+
+#bioelectro-massage-info p {
+    color: #636060;
+    line-height: 30px;
+    font-size: 24px;
+}
+
