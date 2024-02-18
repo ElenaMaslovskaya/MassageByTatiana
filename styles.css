@@ -222,9 +222,7 @@ i {
 }
 
 .service__subtitle {
-    color: #FFF8FA;
-    font-size: 28px;
-    text-shadow: 1px 1px 1px #F6768E;
+    
     margin-bottom: 10px;
 }
 
@@ -331,3 +329,149 @@ button {
     font-size: 24px;
 }
 
+.price {
+    width: 100%;
+    padding: 70px;
+    background-color: #FDBDBA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price__title {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF8FA;
+    text-shadow: 1px 1px 1px #636060;
+    margin-bottom: 70px;
+}
+
+.price-table {
+    margin-bottom: 20px;
+}
+
+#table-heading {
+    color: #FFF8FA;
+    font-size: 32px;
+    text-shadow: 1px 1px 1px #F6768E;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: none;
+}
+
+td {
+    text-align: left;
+    padding: 5px 10px;
+    color: #636060;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+td:nth-child(2) {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.contact {
+    padding: 70px;
+    background-color: #FFF8FA;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__content {
+    display: flex;
+    gap: 40px;
+    color: #636060;
+
+}
+
+.contact__title {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FDBDBA;
+    text-shadow: 2px 2px 2px #636060;
+    margin-bottom: 70px;
+}
+
+form {
+    width: 50%;
+}
+
+.contact-info, .social-icons, form {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons {
+    color: #636060;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 150px;
+    padding: 10px 20px;
+    background-color: #FDBDBA;
+    color: #FFF8FA;
+    border: none;
+    cursor: pointer;
+}
+
+
+.footer {
+    width: 100%;
+    padding: 20px 70px;
+    background-color: #FDBDBA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #636060;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icons {
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+    
+.social-icons {
+    margin: 0;
+}
+
+.social-icons img {
+    width: 20px;
+}

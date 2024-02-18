@@ -63,7 +63,7 @@
                 </div>
         </section>
 
-        <section class="service" id="leistungen">
+        <section class="service" id="service">
             <h2 class="service__title">Leistungen</h2>
             <div class="service-container">
                 <div class="service__item">
@@ -106,21 +106,74 @@
             <p>Diese Methode ist besonders wirksam bei der Behandlung von Schmerzen des Bewegungsapparates, Durchblutungsstörungen sowie bei der Förderung der Geweberegeneration.</p>
         </section>
         
-a
-      <section id="price">
-        <h2>Preise</h2>
-        <p>Qualitätsdienstleistungen zu erschwinglichen Preisen.</p>
-      </section>
 
-      <section id="contact">
-        <h2>Kontakt</h2>
-        <p>So erreichen Sie uns...</p>
-      </section>
+        <section class="price" id="price">
+            <h2 class="price__title">Preise</h2>
+            <div class="price-table">
+                <table>
+                    <tr><td id="table-heading">Waxing</td><td></td><td></td></tr>
+                    <tr><td>Achseln</td><td>..........................................</td><td>15€</td></tr>
+                    <tr><td>Arme</td><td>..........................................</td><td>25€</td></tr>
+                    <tr><td>Rücken</td><td>..........................................</td><td>30€</td></tr>
+                    <tr><td>Beine komplett</td><td>..........................................</td><td>35€</td></tr>
+                    <tr><td>Unterschenkel samt Knie</td><td>..........................................</td><td>25€</td></tr>
+                    <tr><td>Bikinizone</td><td>..........................................</td><td>15€</td></tr>
+                    <tr><td>Intimbereich</td><td>..........................................</td><td>30€</td></tr>
+                    <tr><td>Pofalte, Pobacke, Oberschenkel hinten je</td><td>..........................................</td><td>10€</td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td></tr>
+                    <tr><td id="table-heading">Massagen</td><td></td><td></td></tr>
+                    <tr><td>Wellnessmassage</td><td>..........................................</td><td>60€</td></tr>
+                    <tr><td>Bio-Energie-Massage</td><td>..........................................</td><td>35€</td></tr>
+                </table>
+            </div>
+        </section>
+
+
+        <section class="contact" id="contact">
+            <h2 class="contact__title">Kontakt</h2>
+
+            <div class="contact__content">
+
+                <form action="submit.php" method="POST" class="contact-form">
+                    <label for="firstname">Vorname:</label>
+                    <input type="text" id="firstname" name="firstname" required>
+            
+                    <label for="lastname">Nachname:</label>
+                    <input type="text" id="lastname" name="lastname" required>
+            
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="message">Ihre Nachricht:</label>
+                    <textarea id="message" name="message" rows="3" required></textarea>
+                    <button type="submit">Senden</button>
+                </form>
+
+                <div class="contact-info">
+                    <p>Telefon (WhatsApp): +49 123 456 7890</p>
+                    <p>Adresse: Musterstraße 1, 74564 Crailsheim</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com" target="_blank"><img src="./img/icons8-facebook.svg" alt="facebook"></a>
+                        <a href="https://instagram.com" target="_blank"><img src="./img/icons8-instagram.svg" alt="instagram"></a>
+                        <a href="https://telegram.org" target="_blank"><img src="./img/icons8-telegram.svg" alt="telegram"></a>
+                    </div>
+                </div>
+        </div>
+        </section>
+        
     </main>
 
-    <footer>
-      <p>© 2024 Ihr Schönheitssalon. Alle Rechte vorbehalten.</p>
-      <p>Folgen Sie uns auf [Soziale Medien Links]</p>
-    </footer>
-  </body>
+        <footer class="footer">
+            <p>© 2024 Ihr Schönheitssalon. Alle Rechte vorbehalten.</p>
+            <div class="footer__social">
+                <p>Folgen Sie mir auf</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><img src="./img/icons8-facebook.svg" alt="facebook"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="./img/icons8-instagram.svg" alt="instagram"></a>
+                    <a href="https://telegram.org" target="_blank"><img src="./img/icons8-telegram.svg" alt="telegram"></a>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
