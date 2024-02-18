@@ -1,0 +1,333 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    background-color: #FDBDBA;
+    padding: 20px 70px;
+    position: fixed;
+}
+
+.logo {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    color: #FFF8FA;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.logo1 {
+    border-bottom: solid 2px #F6768E;
+}
+
+.header__nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    font-family: Inika;
+    font-size: 24px;
+}
+.header__list-item {
+    margin-left: 40px;
+}
+.header__link {
+    color: #FFF8FA;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home {
+    width: 100%;    
+    height: 900px;
+    padding: 0 70px;
+    background-color: transparent;
+    display: flex;
+    background-image: url(./img/Home.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-left: auto;
+}
+
+.home__title {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 100px;
+    color: #FFF8FA;
+    text-shadow: 1px 1px 1px #636060;
+}
+
+.home__subtitle {
+    font-size: 32px;
+    margin-top: 20px;
+    color: #FFF8FA;
+}
+
+.home__text {
+    margin-top: 100px;
+    font-size: 28px;
+    color: #FFF8FA;
+    text-shadow: 1px 1px 1px #636060;
+    font-style: italic;
+}
+
+.about {
+    width: 100%;
+    min-height: 500px;
+    background-color: #FFF8FA;
+    padding: 70px;
+    display: flex;
+
+}
+
+.about__img {
+    background-image: url(./img/Tatiana.jpg);
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    margin-left: auto;
+    display: flex;
+    align-self: center;
+    box-shadow: 10px 10px 10px #FDBDBA;
+}
+.about__info {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-between;
+    padding-left: 70px;
+}
+.about__title {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FDBDBA;
+    text-shadow: 2px 2px 2px #636060;
+    margin-bottom: 20px;
+}
+
+.about__text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+    
+}
+
+i {
+    text-align: end;
+    font-size: 20px;
+    color: #636060;
+}
+
+.service {
+    width: 100%;
+    padding: 70px;
+    background-color: #FDBDBA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service__title {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF8FA;
+    text-shadow: 1px 1px 1px #636060;
+    margin-bottom: 70px;
+}
+.service-container {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.service__item {
+    
+}
+
+.service__subtitle {
+    color: #FFF8FA;
+    font-size: 28px;
+    text-shadow: 1px 1px 1px #F6768E;
+    margin-bottom: 10px;
+}
+
+.service__img {
+    width: 250px; 
+    height: 250px; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px #FFF8FA;
+}
+
+.service__img_1 {
+    background-image: url(./img/waxing1.jpg);
+}
+
+.service__img_2 {
+    background-image: url(./img/welmas4.jpg);
+}
+
+.service__img_3 {
+    background-image: url(./img/emas4.jpg);
+}
+
+button {
+    margin-top: 10px; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    border-radius: 10px;
+    color: #636060;
+}
+
+.waxing-info {
+    width: 100%;
+    background-color: #FFF8FA;
+    padding: 70px;
+    padding-bottom: 0;
+}
+
+.waxing-info__title {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FDBDBA;
+    text-shadow: 1px 1px 1px #636060;
+    margin-bottom: 30px;
+}
+
+#waxing-info p {
+    color: #636060;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.wellness-massage-info {
+    width: 100%;
+    background-color: #FFF8FA;
+    padding: 70px;
+    padding-bottom: 0;
+}
+
+.wellness-massage-info__title {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FDBDBA;
+    text-shadow: 1px 1px 1px #636060;
+    margin-bottom: 30px;
+}
+
+#wellness-massage-info p {
+    color: #636060;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.bioelectro-massage-info {
+    width: 100%;
+    background-color: #FFF8FA;
+    padding: 70px;
+}
+
+.bioelectro-massage-info__title {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FDBDBA;
+    text-shadow: 1px 1px 1px #636060;
+    margin-bottom: 30px;
+}
+
+#bioelectro-massage-info p {
+    color: #636060;
+    line-height: 30px;
+    font-size: 24px;
+}
+
